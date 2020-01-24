@@ -28,12 +28,12 @@ The requirements are listed under the _Minimum Viable Product_ section below.
 
 Follow these steps to setup your git _fork_ and _branch_.
 
-- [ ] Fork this repository.
-- [ ] Use GitHub's website to add your project manager as collaborator on **your fork**.
-- [ ] **Clone your forked version** of the repository (**Not Lambda's**!).
-- [ ] Create a new branch: `git checkout -b <firstName-lastName>`.
-- [ ] Commit changes to your `<firstName-lastName>` branch.
-- [ ] Push often to your branch: `git push origin <firstName-lastName>`.
+- [X] Fork this repository.
+- [X] Use GitHub's website to add your project manager as collaborator on **your fork**.
+- [X] **Clone your forked version** of the repository (**Not Lambda's**!).
+- [X] Create a new branch: `git checkout -b <firstName-lastName>`.
+- [X] Commit changes to your `<firstName-lastName>` branch.
+- [X] Push often to your branch: `git push origin <firstName-lastName>`.
 
 Follow these steps for completing your project.
 
@@ -66,7 +66,7 @@ The specifications are listed below.
 - there is **NO** need to specify the type of hit (single, double, etc).
 - changes recorded on this component should update the information shown by the `Display` component.
 
-Feel free add other components and organize and name your components any way you want to satisfy the requirements. **Make it up and make it happen developer!**.
+Feel free to add other components and organize and name your components any way you want to satisfy the requirements. **Make it up and make it happen developer!**.
 
 ## Stretch Problem
 
