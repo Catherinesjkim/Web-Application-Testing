@@ -3,7 +3,7 @@
 // TODO: STEP 1 = Import the useState hook.
 // TODO: STEP 2 - Establish your application's satte with some useState hooks. I will need one for the home score and another for the away score.
 
-import React, { useState} from 'react'';
+import React, { useState} from 'react';
 import './App.css';
 import Display from './Display';
 import Dashboard from './Dashboard';
@@ -37,16 +37,16 @@ function App() {
 
   return (
     <div className="App">
-      <div className="display">
-        <p data-testid='strike' className="score">{strike}</p>
-        <p data-testid='ball' className="score">{ball}</p>
-        <p>Strike</p>
-        <p>Ball</p>
-      </div>
-      <button onClick={handleStrike}>Strike</button>
-      <button onClick={handleBall}>Ball</button>
-      <button onClick={handleHit}>Hit</button>
-      <button onClick={handleFoul}>Foul</button>
+      <Display
+        strikes={strike}
+        balls={ball}
+      />
+      <Dashboard 
+        strikes={handleStrike}
+        balls={handleBall}
+        reset={handleHit}
+        foul={handleFoul}
+    />
     </div>
   );
 }

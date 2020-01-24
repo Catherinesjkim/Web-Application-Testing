@@ -5,11 +5,11 @@ const Display = ({ balls, strikes }) => {
     <section>
       <div>
         <h4>Balls</h4>
-        <span>{balls}</span>
+        <span data-testid='count'>{balls}</span>
       </div>
       <div>
         <h4>Strikes</h4>
-        <span>{strikes}</span>
+        <span data-testid='outs'>{strikes}</span>
       </div>
     </section>
   );
